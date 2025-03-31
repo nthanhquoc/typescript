@@ -1,0 +1,8 @@
+var API_STATUS;
+(function (API_STATUS) {
+    API_STATUS["PENDING"] = "PENDING";
+    API_STATUS["FULFILLED"] = "FULFILLED";
+    API_STATUS["REJECTED"] = "REJECTED";
+})(API_STATUS || (API_STATUS = {}));
+var a1 = API_STATUS.PENDING;
+console.log(a1);
